@@ -14,7 +14,7 @@ How to Run the Program
 =======
 
 
->>>>>>> feature/readme-conflict
+
 1. Ensure you have a C++ compiler installed (such as g++).
 2. Save your source code in a file named Calculator.cpp.
 3. Open your terminal or command prompt, navigate to the folder containing the file, and run the following commands:
