@@ -1,17 +1,32 @@
-\# Calculator - Task 7 Main Version
+# C++ Console Calculator with Scientific Functions
 
 Purpose
+
+
+
 The purpose of this project is to provide a practical, interactive console-based calculator built in C++ using a switch statement. It is designed to handle multiple continuous calculations, support advanced operations like power and square roots, protect against division and modulus-by-zero errors, and format outputs cleanly to two decimal places.
+
+
 
 How to Run the Program
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> feature/readme-conflict
 1. Ensure you have a C++ compiler installed (such as g++).
 2. Save your source code in a file named Calculator.cpp.
 3. Open your terminal or command prompt, navigate to the folder containing the file, and run the following commands:
 g++ Calculator.cpp -o calculator
 ./calculator
 
+
+
 Example Input/Output
+
+
+
 Input:
 Enter your choice (1-8): 1
 Enter first number: 15.5
