@@ -35,7 +35,6 @@ Enter second number: 4.2
 Output:
 Result: 15.50 + 4.20 = 19.70
 
-Author / Group Information
-Author: Ahmed Nasir
+Author: Ahmed Nasir,
 Group Information: Individual
 
