@@ -10,7 +10,7 @@ The purpose of this project is to provide a practical, interactive console-based
 
 How to Run the Program
 
-<<<<<<< HEAD
+
 =======
 
 
