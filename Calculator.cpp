@@ -1,11 +1,11 @@
 #include <iostream>
+#include <iomanip> // <-- The one addition: required for decimal precision
 
 using namespace std;
 
-
 void showMenu() {
     cout << "\n==============================\n"
-         << "      C++ CALCULATOR   \n"
+         << "      C++ SWITCH CALCULATOR   \n"
          << "==============================\n"
          << "1. Addition (+)\n"
          << "2. Subtraction (-)\n"
@@ -20,6 +20,9 @@ void showMenu() {
 int main() {
     int choice;
     double num1, num2;
+
+    // The one addition: fixes all output to 2 decimal places
+    cout << fixed << setprecision(2);
 
     do {
         showMenu();
@@ -40,7 +43,6 @@ int main() {
         cout << "Enter second number: ";
         cin >> num2;
 
-        // Switch statement handling operations cleanly
         switch (choice) {
             case 1:
                 cout << "\nResult: " << num1 << " + " << num2 << " = " << (num1 + num2) << "\n";
